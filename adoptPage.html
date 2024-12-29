@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="logoM.jpg" >
+    <title>Adopt a baby</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content h2{
+            font-family: "bahnschrift";
+            font-size: 30px;
+            color: darkslategray;
+            margin-bottom: 20px;
+        }
+        .content p{
+            font-family: calibri;
+            font-size: 20px;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+        }
+        .babylist{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .baby{
+            display: inline-block;
+            margin: 5px;
+            text-align: justify;
+            padding: 5px;
+            color: white;
+            background-color: darkslategray;
+            border-radius: 5px;
+        }
+        .baby img{
+            width: 330px;
+            height: 270px;
+        }
+        .baby p{
+            font-family: "calibri";
+            font-size: 20px;
+            text-align: justify;
+            width: 330px;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .list div{
+            margin: 10px;
+            text-align: justify;
+            padding: 5px;
+            color: white;
+            background-color: darkslategray;
+            border-radius: 5px;    
+        }
+        .list img{
+            height: 380px;
+            width: 500px;
+        }
+        .list p{
+            width: 500px;
+        }
+        li strong{
+            font-family: calibri;
+            font-size: 25px;
+        }
+        .button1 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:white; 
+            color: darkslategray; 
+            text-decoration: none;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+
+        .button1:hover {
+            color: #ddddc8; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="logo" style="display: block;">
+            <img src="logoM.jpg" alt="logo" style="display: inline; margin-right: 1px; margin-left: 10px;" height="30px" width="30px" >
+            <h3 style="display: inline; margin: 0px; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">HOPE</h3>
+            <p style="display: inline; margin: 0px; margin-left: -5px;">.com</p>
+        </div>
+        <div style="justify-content: space-around;">
+            <div class="menu">
+                <ul>
+                    <li><a href="mainPage.html">Home |</a></li>
+                    <li><a href="aboutUsPage.html">About Us |</a></li>
+                    <li><a href="chooseFamilyPage.html">Choose A Family |</a></li>
+                    <li><a href="adoptPage.html">Adopt |</a></li>
+                    <li><a href="virtualMeetingPage.html">Virtual Meeting</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <img src="user.png" alt="user"  height="40px" width="40px" style="display: inline-block;">
+                <a href="signinPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;">Sign In |</p>
+                </a>
+                <a href="signupPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;"> Sign Up</p>
+                </a>
+
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="content">
+        <div class="head">
+            <h2>Babies Available for Adoption</h2>
+            <div class="search">
+                <input type="text" placeholder="Search" id="searchInput">
+                <button type="submit" class="searchButton" id="searchButton"><img src="search.png" alt="searchHere"></button>
+            </div>
+        </div>
+        
+        <div class="babyList">
+            <div class="baby">
+                <img src="fbabyM5.jpg" alt="">
+                <h2>Bhavika</h2>
+                <p>Age: 7 months</p>
+                <p>Gender: Female</p>
+                <p>Description: Bhavika is a charming baby girl who loves meeting new people.</p>
+             </div>
+            <div class="baby">
+                <img src="fbabyM1.jpg" alt="">
+                <h2>Vanshika</h2>
+                <p>Age: 8 months</p>
+                <p>Gender: Female</p>
+                <p>Description: Vanshika is a sweet baby girl who enjoys cuddles and listening to lullabies.</p>
+            </div>
+            <div class="baby">
+                <img src="mbaby1M.jpeg" alt="">
+                <h2>Varun</h2>
+                <p>Age: 6 months</p>
+                <p>Gender: Male</p>
+                <p>Description: Varun is a lovely baby boy who loves to smile and play with toys also loves exploring his surroundings.</p>
+            </div>
+            <div class="baby">
+                <img src="mbaby2M.jpeg" alt="">
+                <h2>Shiv</h2>
+                <p>Age: 5 months</p>
+                <p>Gender: Male</p>
+                <p>Description: Shiv is an active baby who loves exploring new things.</p>
+            </div>
+            <div class="baby">
+                <img src="fbaby2M.jpg" alt="">
+                <h2>Mrunal</h2>
+                <p>Age: 10 months</p>
+                <p>Gender: Female</p>
+                <p>Description: Mrunal is a curious baby girl who enjoys observing her surroundings.</p>
+            </div>
+            <div class="baby">
+                <img src="mbaby3M.jpeg" alt="">
+                <h2>Hardik</h2>
+                <p>Age: 7 months</p>
+                <p>Gender: Male</p>
+                <p>Description: Hardik is a happy baby who loves interacting with people.</p>
+            </div>
+            <div class="baby">
+                <img src="fbaby3M.jpg" alt="">
+                <h2>Khushi</h2>
+                <p>Age: 9 months</p>
+                <p>Gender: Female</p>
+                <p>Description: khushi is an adorable baby girl who enjoys playing with her toys.</p>
+            </div>
+            <div class="baby">
+                <img src="mbaby4M.jpeg" alt="">
+                <h2>Jatin</h2>
+                <p>Age: 8 months</p>
+                <p>Gender: Male</p>
+                <p>Description: Jatin is a cheerful baby who brings joy to everyone around him.</p>
+            </div>
+            <div class="baby">
+                <img src="fbabyM4.jpg" alt="">
+                <h2>Laxmi</h2>
+                <p>Age: 6 months</p>
+                <p>Gender: Female</p>
+                <p>Description: Laxmi is a lively baby girl who loves babbling and giggling.</p>
+            </div>
+            <div class="baby">
+                <img src="mbaby5M.jpeg" alt="">
+                <h2>Palash</h2>
+                <p>Age: 4 months</p>
+                <p>Gender: Male</p>
+                <p>Description: Palash is a calm baby who enjoys being held and cuddled.</p>
+            </div>
+            <div>
+                <a href="aboutUsPage.html" class="button1">NEXT PAGE</a>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 20px;">More Details about these Babies</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Description</th>
+                <th>Health Status</th>
+                <th>Interests</th>
+            </tr>
+            <tr>
+                <td>Bhavika</td>
+                <td>7 months</td>
+                <td>Female</td>
+                <td>Bhavika is a charming baby girl who loves meeting new people. She enjoys playing with colorful toys and listening to nursery rhymes.</td>
+                <td>Excellent health, vaccinated</td>
+                <td>Enjoys spending time outdoors, going for walks, exploring nature</td>
+            </tr>
+            <tr>
+                <td>Vanshika</td>
+                <td>8 months</td>
+                <td>Female</td>
+                <td>Vanshika is a sweet baby girl who enjoys cuddles and listening to lullabies. She has a gentle demeanor and loves being held.</td>
+                <td>Healthy, meeting developmental milestones</td>
+                <td>Enjoys playing with soft toys, interacting with colorful mobiles</td>
+            </tr>
+            <tr>
+                <td>Varun</td>
+                <td>6 months</td>
+                <td>Male</td>
+                <td>Varun is a lovely baby boy who loves to smile and play with toys also loves exploring his surroundings.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys playing with toys, discovering new things</td>
+            </tr>
+            <tr>
+                <td>Shiv</td>
+                <td>5 months</td>
+                <td>Male</td>
+                <td>Shiv is an active baby who loves exploring new things.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys playing with toys, interacting with people</td>
+            </tr>
+            <tr>
+                <td>Mrunal</td>
+                <td>10 months</td>
+                <td>Female</td>
+                <td>Mrunal is a curious baby girl who enjoys observing her surroundings.</td>
+                <td>Excellent health, vaccinated</td>
+                <td>Enjoys exploring, observing new things</td>
+            </tr>
+            <tr>
+                <td>Hardik</td>
+                <td>7 months</td>
+                <td>Hardik</td>
+                <td>Hardik is a happy baby who loves interacting with people.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys socializing, playing with toys</td>
+            </tr>
+            <tr>
+                <td>Khushi</td>
+                <td>9 months</td>
+                <td>Female</td>
+                <td>Khushi is an adorable baby girl who enjoys playing with her toys.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys playing with toys, babbling</td>
+            </tr>
+            <tr>
+                <td>Jatin</td>
+                <td>8 months</td>
+                <td>Male</td>
+                <td>Jatin is a cheerful baby who brings joy to everyone around him.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys laughing, playing, exploring</td>
+            </tr>
+            <tr>
+                <td>Laxmi</td>
+                <td>6 months</td>
+                <td>Female</td>
+                <td>Laxmi is a lively baby girl who loves babbling and giggling.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys babbling, giggling, playing with toys</td>
+            </tr>
+            <tr>
+                <td>Palash</td>
+                <td>4 months</td>
+                <td>Male</td>
+                <td>Palash is a calm baby who enjoys being held and cuddled.</td>
+                <td>Healthy, vaccinated</td>
+                <td>Enjoys cuddling, being held, quiet activities</td>
+            </tr>
+        </table>
+
+
+        <h2 style="margin-top: 40px;">How to Adopt a Baby ?</h2>
+        <p style="margin-top: 10px; margin-bottom: 10px;">At HOPE, we strive to make the adoption process as smooth and transparent as possible for prospective parents. Here's a step-by-step guide on how to adopt a baby through our agency:</p>
+        <ol style="font-size: 25px;">
+            <div class="list">
+                <li>
+                    <strong>Educate Yourself</strong> 
+                    <div>
+                        <img src="adoptImage1M.jpg" alt="">
+                        <p>Begin by educating yourself about the adoption process and the different types of adoption available. Our website provides valuable resources and information to help you make informed decisions.</p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Complete the Application</strong> 
+                    <div>
+                        <img src="adoptImage2M.jpg" alt="">
+                        <p>Once you feel ready to start the adoption process, complete our online adoption application form. This form will gather essential information about you, your family, and your preferences for adoption.</p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Attend Orientation</strong> 
+                    <div>
+                        <img src="adoptImage3Mjpg.jpg" alt="">
+                        <p>After receiving your application, our adoption specialists will review it and invite you to attend an orientation session. During this session, you'll learn more about our agency, the adoption process, and what to expect moving forward.</p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Home Study</strong> 
+                    <div>
+                        <img src="adoptImage4M.jpg" alt="">
+                        <p>
+                            The next step is to undergo a home study conducted by a licensed social worker. This involves an in-depth assessment of your home, family dynamics, and readiness to adopt. It's an opportunity for us to get to know you better and ensure that you're prepared for parenthood.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Matching Process</strong> 
+                    <div>
+                        <img src="adoptImage5M.jpg" alt="">
+                        <p>
+                            Once your home study is complete and approved, we'll begin the matching process. Our adoption specialists will work closely with you to find a child whose needs and characteristics align with your family's preferences and capabilities.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Placement</strong> 
+                    <div>
+                        <img src="adoptImage6M.jpg" alt="">
+                        <p>
+                            After a suitable match is found, you'll have the opportunity to meet the child and build a relationship with them through visits and interactions. When both you and the child are ready, the placement process will be finalized, and the child will become a permanent member of your family.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Post-Placement Support</strong> 
+                    <div>
+                        <img src="adoptImage7M.jpg" alt="">
+                        <p>
+                            Our support doesn't end after placement. We provide ongoing support and resources to help you navigate the joys and challenges of parenthood. Whether you have questions, need guidance, or simply want to share your experiences, we're here for you every step of the way.
+                        </p>
+                    </div>
+                </li>
+            </div>
+            
+        </ol>
+        <p style="margin-top: 10px;">If you're ready to embark on the journey of adoption or have any questions about the process, please don't hesitate to <a href="aboutUsPage.html">contact us</a>. Our team is here to support you and guide you through this life-changing experience.</p>
+
+    </div>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/?hl=en">
+            <img src="instagramLogo.png" alt="instagram logo" height="20px" width="20px">
+        </a>
+        <a href="https://web.facebook.com/login.php/?_rdc=1&_rdr" >
+            <img src="facebookLogo.png" alt="facebook logo" height="20px" width="20px">
+        </a>
+        <a href="pinterest.com/accounts/login/" >
+            <img src="pinterstLogo.jpeg" alt="pinterest logo" height="20px" width="20px">
+        </a>
+        <br>
+        <br>
+        &copy; 2024 HOPE. <br>All rights reserved.
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('searchButton').addEventListener('click', function() {    
+                var searchTerm = document.getElementById('searchInput').value;
+                var content = document.querySelector('.content').innerHTML;
+                var regex = new RegExp('(' + searchTerm + ')', 'gi');
+                var highlightedContent = content.replace(regex, '<mark>$1</mark>');
+                document.querySelector('.content').innerHTML = highlightedContent;
+                
+                if (highlightedContent === content) {
+                    alert('Search term not found.');
+                    document.getElementById('searchInput').value = " ";
+                    return;
+                }
+
+                var shouldReload = false;
+                document.body.addEventListener('click', function(event) {
+                    if (event.target !== searchButton) {
+                        shouldReload = true;
+                        setTimeout(function() {
+                            if (shouldReload) {
+                                location.reload();
+                            }
+                        }, 1000);
+                    }
+                });
+            });    
+        });
+    </script>
+
+</body>
+
+</html>

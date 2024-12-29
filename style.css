@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#logo p{
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    color: white;
+    background-color: darkslategray;
+    padding: 10px;
+}
+li{
+    font-size: 18px;
+    font-family: "bahnschrift";
+    cursor: pointer;
+}
+ul,li{
+    display: inline;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ddddc8 !important; /*when overcome the overridden css property*/
+}
+.menu a:visited{
+    color: white;
+}
+.menu{
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.login{
+    margin-left: 5%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    font-family: bahnschrift;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #ddddc8 !important; 
+}
+.login a:visited{
+    color: white;
+}
+.content{
+    border: 2px solid darkslategray;
+}
+
+.footer{
+    color: white;
+    background-color:darkslategray;
+    text-align: center;
+    padding: 15px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+
+.searchButton{
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid darkslategray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 42px;
+    
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 1px solid darkslategray;
+    width: 200px;
+    border-radius: 5px 0 0 5px;
+    height: 20px;
+    margin-right: -5px; /*Remove space*/
+}
+
+input[type="text"]:focus{ 
+    border: 1px solid darkslategray;
+    outline: none;
+}
+
+.search{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    background-color : #ddddc8;
+    padding: 50px;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Calibri';
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+}
+td{
+    background-color: white;
+    color: darkslategray;
+    font-size: 20px;
+}

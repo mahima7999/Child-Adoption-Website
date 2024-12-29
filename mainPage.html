@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="logoM.jpg" >
+    <title>
+       HOPE
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        h1{
+            text-align: center;
+            font-family: "arial";
+            color: darkslategray;
+        }
+        .imgContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .box{
+            margin: 5px;
+            text-align: center;
+            padding: 5px;
+            color: white;
+            background-color: darkslategray;
+            border-radius: 5px;
+        }
+        .box img{
+           height: 270px;
+           width: 335px;
+        }
+        .box p{
+            font-family: "calibri" !important;
+            font-size: 20px !important;
+            text-align: center !important;
+            /*margin-left: 0;
+            margin-right: 50%;*/
+        }
+        .box a{
+           /* margin-left: 60%;*/
+           text-align: right !important;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: white; 
+            color: darkslategray; 
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #ddddc8; 
+        }
+        .content p{
+            font-family: "Comic Sans MS";
+            font-size: 15px;
+            text-align: justify;
+        }
+        .content h2{
+            font-family: "bahnschrift";
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .button1 {
+            display: inline-block;
+            padding: 2px 10px;
+            background-color:darkslategray; 
+            color: white; 
+            text-decoration: none;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+
+        .button1:hover {
+            color: #ddddc8; 
+        }
+        iframe{
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="logo" style="display: block;">
+            <img src="logoM.jpg" alt="logo" style="display: inline; margin-right: 1px; margin-left: 10px;" height="30px" width="30px" >
+            <h3 style="display: inline; margin: 0px; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">HOPE</h3>
+            <p style="display: inline; margin: 0px; margin-left: -5px;">.com</p>
+        </div>
+        <div>
+            <div class="menu">
+                <ul>
+                    <li><a href="mainPage.html">Home |</a></li>
+                    <li><a href="aboutUsPage.html">About Us |</a></li>
+                    <li><a href="chooseFamilyPage.html">Choose A Family |</a></li>
+                    <li><a href="adoptPage.html">Adopt |</a></li>
+                    <li><a href="virtualMeetingPage.html">Virtual Meeting</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search" id="searchInput">
+                <button type="submit" class="searchButton" id="searchButton"><img src="search.png" alt="searchHere"></button>
+            </div>
+            <div class="login">
+                <img src="user.png" alt="user"  height="40px" width="40px" style="display: inline-block;">
+                <a href="signinPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;">Sign In |</p>
+                </a>
+                <a href="signupPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;"> Sign Up</p>
+                </a>
+            </div>
+        </div>
+        
+    </nav>
+    
+    <div class="content">
+        <h1>Make Your Adoption Connection</h1>
+
+        <div class="imgContainer">
+            <div class="box">
+                <img src="adoptM.jpg" alt="adoption image" usemap="#image-map1">
+                <map name="image-map1">
+                    <area shape="rect" coords="0,0,335,270" href="https://youtu.be/BzWd9_uqEBg?si=8ashpUaHGYVHZ-DH">
+                </map>
+                <p>How to <strong>ADOPT</strong> a baby</p><br>
+                <a href="adoptPage.html" class="button">EXPLORE</a>
+            </div>
+            <div class="box">
+                <img src="chooseFamilyM.jpeg" alt="family image" usemap="#image-map2">
+                <map name="image-map2">
+                    <area shape="rect" coords="0,0,335,270" href="https://youtu.be/FsSI-7kMp8w?si=08v5JftejzRdnohM">
+                </map>
+                <p><strong>CHOOSE AN ADOPTIVE </strong>family for <br> your baby</p><br>
+                <a href="chooseFamilyPage.html" class="button">CHOOSE</a>
+            </div>
+            <div class="box">
+                <img src="MeetM.jpg" alt="meet children image" usemap="#image-map3">
+                <map name="image-map3">
+                    <area shape="rect" coords="0,0,335,270" href="https://youtu.be/1SGi2Uu8gAE?si=eqIIiRfQK01Or0X-">
+                </map>
+                <p>Register for <strong>VIRTUAL MEETING</strong></p><br>
+                <a href="virtualMeetingPage.html" class="button">MEET KIDS</a>
+            </div>
+        </div>
+        <h4>(Click the above images and get to know about the experiences of people with us.)</h4>
+
+        <h2 style="margin-top: 40px;">About Us</h2>
+        <p>At Hope, we believe that every child deserves a loving and permanent home. With a passion for connecting children with their  families, we are dedicated to facilitating the adoption process with care, compassion, and professionalism. Our team consists of experienced professionals who understand the complexities of adoption and are committed to supporting both prospective parents and children throughout their journey. Whether you're considering adoption or searching for the perfect addition to your family, HOPE is here to guide and support you every step of the way
+            <a href="aboutUsPage.html" class="button1">LEARN MORE</a></p>
+
+        <h2>How to adopt a baby?</h2>
+        <p>Adopting a baby is a life-changing journey filled with hope, excitement, and love. At HOPE , we strive to make the adoption process as smooth and rewarding as possible for both prospective parents and the precious children awaiting their forever homes. Our experienced team will guide you through every step of the adoption journey, from the initial inquiry to the finalization of your adoption. We offer comprehensive support, resources, and guidance to help you navigate the legal, emotional, and logistical aspects of adoption. Whether you're considering domestic adoption, international adoption, or foster care adoption, we're here to support you on your path to becoming a  family<a href="adoptPage.html" class="button1">LEARN MORE</a></p>
+
+        <h2>Choose an adoptive family for your baby</h2>
+        <p>Choosing an adoptive family for your baby is a deeply personal and important decision. At HOPE , we understand the significance of finding the right family who will provide love, support, and stability for your child. Our experienced team is here to assist you in navigating this process with care and compassion. We offer a wide selection of loving and qualified adoptive families, each carefully screened and ready to welcome a new member into their hearts and homes. Whether you're looking for a family with specific qualities or values, we are committed to helping you find the perfect match for your baby's future.<a href="chooseFamilyPage.html" class="button1">LEARN MORE</a></p>
+
+        <h2>Register for virtual meetings</h2>
+        <p>Register for our virtual meeting and take the next step towards growing your family. Our virtual meetings provide a convenient and accessible way for prospective parents to learn more about the adoption process, ask questions, and connect with our team of experts. Join us from the comfort of your own home as we discuss important topics such as adoption requirements, available services, and the steps involved in welcoming a child into your family. Whether you're just beginning your adoption journey or looking to expand your family, our virtual meetings offer valuable insights and support to help you make informed decisions and move forward with confidence.<a href="virtualMeetingPage.html" class="button1">LEARN MORE</a><br><br></p>
+
+        <iframe width="679" height="382" src="https://www.youtube.com/embed/n3w4yl8KwC8" title="We Adopted a Baby." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/?hl=en">
+            <img src="instagramLogo.png" alt="instagram logo" height="20px" width="20px">
+        </a>
+        <a href="https://web.facebook.com/login.php/?_rdc=1&_rdr" >
+            <img src="facebookLogo.png" alt="facebook logo" height="20px" width="20px">
+        </a>
+        <a href="pinterest.com/accounts/login/" >
+            <img src="pinterstLogo.jpeg" alt="pinterest logo" height="20px" width="20px">
+        </a>
+        <br>
+        <br>
+        &copy; 2024 HOPE. <br>All rights reserved.
+    </div>
+
+    <!--
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {    
+            var searchTerm = document.getElementById('searchInput').value;
+            document.write('Search term: ', searchTerm);
+        });
+    </script>
+-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('searchButton').addEventListener('click', function() {    
+                var searchTerm = document.getElementById('searchInput').value;
+                var content = document.querySelector('.content').innerHTML;
+                var regex = new RegExp('(' + searchTerm + ')', 'gi');
+                var highlightedContent = content.replace(regex, '<mark>$1</mark>');
+                document.querySelector('.content').innerHTML = highlightedContent;
+                
+                if (highlightedContent === content) {
+                    alert('Search term not found.');
+                    document.getElementById('searchInput').value = " ";
+                    return;
+                }
+
+                var shouldReload = false;
+
+                document.body.addEventListener('click', function(event) {
+                    if (event.target !== searchButton) {
+                        shouldReload = true;
+                        setTimeout(function() {
+                            if (shouldReload) {
+                                location.reload();
+                            }
+                        }, 1000);
+                    }
+                });
+                
+                });
+                
+        });
+    </script>
+</body>
+</html>

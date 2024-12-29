@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="logoM.jpg" >
+    <title>Register for a Virtual Meeting</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .content h2{
+            font-family: "bahnschrift";
+            font-size: 30px;
+            color: darkslategray;
+            margin-bottom: 20px;
+        }
+        .content p,li{
+            font-family: calibri;
+            font-size: 20px;
+            text-align: justify;
+        }
+        form {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .required::after {
+            content: "*";
+            color: red;
+        }
+        input[type="text"],
+        input[type="number"]
+        input[type="email"]{
+            height: 30px;
+        }
+        input[type="text"],
+        input[type="number"]
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid darkslategray;
+            box-sizing: border-box;
+        }
+        
+        .submit{
+            background-color: white;
+            color: darkslategrey;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .submit:hover {
+            background-color: #ddddc8;
+        }
+
+        .box{
+            color: white;
+            background-color: darkslategray;
+            border-radius: 5px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="logo" style="display: block;">
+            <img src="logoM.jpg" alt="logo" style="display: inline; margin-right: 1px; margin-left: 10px;" height="30px" width="30px" >
+            <h3 style="display: inline; margin: 0px; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">HOPE</h3>
+            <p style="display: inline; margin: 0px; margin-left: -5px;">.com</p>
+        </div>
+        <div style="justify-content: space-around;">
+            <div class="menu">
+                <ul>
+                    <li><a href="mainPage.html">Home |</a></li>
+                    <li><a href="aboutUsPage.html">About Us |</a></li>
+                    <li><a href="chooseFamilyPage.html">Choose A Family |</a></li>
+                    <li><a href="adoptPage.html">Adopt |</a></li>
+                    <li><a href="virtualMeetingPage.html">Virtual Meeting</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <img src="user.png" alt="user"  height="40px" width="40px" style="display: inline-block;">
+                <a href="signinPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;">Sign In |</p>
+                </a>
+                <a href="signupPage.html">
+                    <p style="margin-left: 5px; font-size: 18px; ;"> Sign Up</p>
+                </a>
+
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="content">
+        <h2>Register for a Virtual Meeting</h2>
+        <div class="box">
+            <form id="rForm">
+                <ul>
+                    <li>
+                        <p><br>This virtual meeting registration form is to streamline the process of connecting potential adoptive parents with our counselors. By providing a convenient platform for individuals to register their interest in attending virtual meetings, we aim to facilitate efficient communication and collaboration between adoptive families and adoption professionals, ultimately fostering the adoption process in a supportive and accessible manner.</p> <br><br>
+                    </li>
+                    <li>
+                        <label class="required">First Name:</label>
+                        <input type="text" id="firstName" required>
+                    </li>
+                    <li>
+                        <label class="required">Last Name:</label>
+                        <input type="text" id="lastName" required>
+                    </li>
+                    <li>
+                        <label class="required">Email Address:</label>
+                        <input type="email" id="email" required>
+                    </li>
+                    <li>
+                        <label><br>City:</label>
+                        <select id="City">
+                            <option>Select a City</option>
+                            <option>Indore</option>
+                            <option>Pune</option>
+                            <option>Betul</option>
+                            <option>Mumbai</option>
+                            <option>Other Cities</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label class="required">Zip/Postal Code:</label>
+                        <input type="text" id="zipCode" required>
+                    </li>
+                    <li>
+                        <label>State/Province:</label>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <label class="required">Phone:</label>
+                        <input type="number" id="phone" required>
+                    </li>
+                    <li>
+                        <label><br>Questions & Comments:</label>
+                        <textarea rows="4"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Register" class="submit">
+                    </li>
+                </ul>
+            </form>   
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/?hl=en">
+            <img src="instagramLogo.png" alt="instagram logo" height="20px" width="20px">
+        </a>
+        <a href="https://web.facebook.com/login.php/?_rdc=1&_rdr" >
+            <img src="facebookLogo.png" alt="facebook logo" height="20px" width="20px">
+        </a>
+        <a href="pinterest.com/accounts/login/" >
+            <img src="pinterstLogo.jpeg" alt="pinterest logo" height="20px" width="20px">
+        </a>
+        <br>
+        <br>
+        &copy; 2024 HOPE. <br>All rights reserved.
+    </div>
+
+    <!--
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.querySelector('form');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); 
+
+                var firstName = document.getElementById('firstName').value;
+                var lastName = document.getElementById('lastName').value;
+                var email = document.getElementById('email').value;
+                var country = document.getElementById('country').value;
+                var zipCode = document.getElementById('zipCode').value;
+                var phone = document.getElementById('phone').value;
+
+                if (firstName.trim() === '' || lastName.trim() === '' || email.trim() === '' || country === 'Select a Country' || zipCode.trim() === '' || phone.trim() === '') {
+                    alert('Please fill in all required fields.');
+                    return false; 
+                }
+
+                alert('Form submitted successfully!');
+                form.reset(); 
+            });
+        });
+    </script>
+    -->
+
+    <script>
+        document.getElementById("rForm").addEventListener("submit", function(event) {
+        event.preventDefault();   
+
+        alert("Registered successfully!");
+        document.getElementById("rForm").reset();
+        window.location.href = "mainPage.html";
+
+        });
+    </script>
+
+</body>
+
+</html>
